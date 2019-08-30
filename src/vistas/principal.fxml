@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane fx:id="panelRaiz" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#moverPanel" onMousePressed="#copiarCoordenadas" prefHeight="665.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controles.ControlVPrincipal">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="1017.0" layoutX="-8.0" layoutY="-2.0" opacity="0.71">
+         <image>
+            <Image url="@../imagenes/fondo.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="botonCerrar" fx:id="botonCerrar" layoutX="969.0" layoutY="3.0" onAction="#cerrar" prefHeight="25.0" prefWidth="25.0" ripplerFill="WHITE" style="-fx-graphic: url('/imagenes/close.png');" text=" " />
+      <JFXButton id="botonMinimizar" fx:id="botonMinimizar" layoutX="935.0" layoutY="4.0" onAction="#minimizar" prefHeight="25.0" prefWidth="25.0" ripplerFill="WHITE" style="-fx-graphic: url('/imagenes/minimize.png');" text=" " />
+      <ImageView fitHeight="270.0" fitWidth="263.0" layoutX="383.0" layoutY="381.0">
+         <image>
+            <Image url="@../imagenes/niño%20explorador.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="148.0" fitWidth="471.0" layoutX="285.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/nombre.png" />
+         </image>
+      </ImageView>
+      <MediaView fx:id="video" fitHeight="400.0" fitWidth="550.0" layoutX="249.0" layoutY="173.0" />
+   </children>
+</Pane>

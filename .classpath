@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="externaljars/java-flac-encoder-0.3.8-sources.jar"/>
+	<classpathentry kind="lib" path="externaljars/bluecove-2.1.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="externaljars/java-flac-encoder-0.3.8.jar"/>
+	<classpathentry kind="lib" path="externaljars/java-google-speech-api-V2.1-sources.jar"/>
+	<classpathentry kind="lib" path="externaljars/java-google-speech-api-V2.1.jar"/>
+	<classpathentry kind="lib" path="externaljars/jlayer-1.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="externaljars/jlayer-1.0.1.jar"/>
+	<classpathentry kind="lib" path="externaljars/json-20150729-sources.jar"/>
+	<classpathentry kind="lib" path="externaljars/json-20150729.jar"/>
+	<classpathentry kind="lib" path="externaljars/jfoenix-8.0.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
