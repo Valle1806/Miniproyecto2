@@ -14,4 +14,5 @@ public class Pregunta {
 	public Respuesta[] getRespuestas() {
 		return this.conjuntoRespuestas;
 	}
+	
 }

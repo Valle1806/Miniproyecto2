@@ -55,6 +55,6 @@ public class TTS {
 		speakAux("\nSección de preguntas, " + p.getPregunta() + "\nOpción A. " + p.getRespuestas()[0].getRespuesta()
 				+ "\n" + "\nOpción B. " + p.getRespuestas()[1].getRespuesta() + "\n" + "\nOpción C. "
 				+ p.getRespuestas()[2].getRespuesta() + "\n" + "\nOpción D. " + p.getRespuestas()[3].getRespuesta()
-				+ "\n" + "\n Use las cartas de respuesta");
+				+ "\n" + "\n Use los botones del mapa, presione f para repetir la pregunta");
 	}
 }

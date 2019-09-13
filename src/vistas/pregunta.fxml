@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane fx:id="panelRaiz" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#teclaPresionada" onMouseDragged="#moverPanel" onMousePressed="#copiarCoordenadas" prefHeight="665.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controles.ControlPregunta">
+   <children>
+      <ImageView fitHeight="665.0" fitWidth="1010.0" layoutX="-2.0" opacity="0.29">
+         <image>
+            <Image url="@../imagenes/fondo.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="botonCerrar" fx:id="botonCerrar" layoutX="969.0" layoutY="2.0" onAction="#cerrar" prefHeight="25.0" prefWidth="25.0" style="-fx-graphic: url('/imagenes/close.png');" text=" " />
+      <JFXButton id="botonMinimizar" fx:id="botonMinimizar" layoutX="935.0" layoutY="3.0" onAction="#minimizar" prefHeight="25.0" prefWidth="25.0" ripplerFill="WHITE" style="-fx-graphic: url('/imagenes/minimize.png');" text=" " />
+      <Label fx:id="pregunta" layoutX="63.0" layoutY="237.0" prefHeight="124.0" prefWidth="888.0" text="&lt;pregunta&gt;" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Ravie" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="botonInicio" layoutX="44.0" layoutY="27.0" onAction="#regresarInicio" prefHeight="61.0" prefWidth="70.0" style="-fx-graphic: url('/imagenes/inicio.png');" text="  " />
+      <ImageView fitHeight="168.0" fitWidth="529.0" layoutX="249.0" layoutY="58.0">
+         <image>
+            <Image url="@../imagenes/nombre.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="152.0" fitWidth="369.0" layoutX="86.0" layoutY="354.0">
+         <image>
+            <Image url="@../imagenes/A.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="respuestaA" layoutX="150.0" layoutY="380.0" onAction="#verificarRespuestaA" prefHeight="100.0" prefWidth="315.0" text=" " />
+      <ImageView fitHeight="152.0" fitWidth="369.0" layoutX="521.0" layoutY="354.0">
+         <image>
+            <Image url="@../imagenes/B.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="respuestaB" layoutX="580.0" layoutY="377.0" onAction="#verificarRespuestaB" prefHeight="100.0" prefWidth="315.0" text=" " />
+      <ImageView fitHeight="152.0" fitWidth="369.0" layoutX="85.0" layoutY="491.0">
+         <image>
+            <Image url="@../imagenes/C.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="respuestaC" layoutX="150.0" layoutY="517.0" onAction="#verificarRespuestaC" prefHeight="100.0" prefWidth="315.0" text=" " />
+      <ImageView fitHeight="152.0" fitWidth="369.0" layoutX="521.0" layoutY="491.0">
+         <image>
+            <Image url="@../imagenes/D.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="respuestaD" layoutX="578.0" layoutY="517.0" onAction="#verificarRespuestaD" prefHeight="100.0" prefWidth="315.0" text=" " />
+   </children>
+</Pane>
